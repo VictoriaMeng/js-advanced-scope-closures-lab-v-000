@@ -5,3 +5,7 @@ function produceDrivingRange(range){
     return range_diff >= distance ? `within range by ${range_diff}` : `${range_diff} blocks out of range`;
   };
 };
+
+function produceTipCalculator(){
+  
+};
