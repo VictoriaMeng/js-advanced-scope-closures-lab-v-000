@@ -6,6 +6,8 @@ function produceDrivingRange(range){
   };
 };
 
-function produceTipCalculator(){
-  
+function produceTipCalculator(percent){
+  return function(price){
+    return price * percent;
+  };
 };
